@@ -10,6 +10,11 @@ void main() {
           title: Text('I am Rich'),
           backgroundColor: Colors.teal,
         ),
+        body: Center(
+          child: Image(
+            image: AssetImage('images/diamond.png'),
+          ),
+        ),
       ),
     ),
   );
